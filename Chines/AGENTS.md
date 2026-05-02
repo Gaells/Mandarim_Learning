@@ -29,6 +29,7 @@ d:\Chines\Chines\
 ├── wiki\              ← Páginas de síntese geradas pelo LLM
 │   ├── conceitos\     ← Conceitos gramaticais (ex: tons, partículas, classificadores)
 │   ├── radicais\      ← Páginas por radical chinês (ex: 女, 人, 口...)
+│   ├── histórias\      ← Textos graduados HSK com análise gramatical
 │   ├── temas\         ← Temas de vocabulário (ex: família, tempo, cores)
 │   └── sínteses\      ← Análises, comparações, padrões descobertos
 │
@@ -152,6 +153,61 @@ criado: <YYYY-MM-DD>
 * Links para as páginas do wiki que embasaram esta síntese.
 ```
 
+### 5. Página de História / Leitura Graduada (wiki/histórias/)
+
+Naming: `<Título PT> - <漢字 do título>.md`
+
+```markdown
+---
+tags: [hsk1, leitura, historia, <temas>]
+titulo_en: <Título em inglês da fonte>
+fonte: "<URL da fonte>"
+nivel: HSK1
+criado: <YYYY-MM-DD>
+palavras_novas: [<lista de hanzi novos identificados>]
+---
+
+# <Título em Português> — <漢字> — <Pinyin>
+
+> 📖 **História curta HSK1** · Tema: <temas>.
+
+---
+
+## 📜 Texto Original
+
+**<Frase em Hanzi>.** *<Pinyin com tons>.* <Tradução>.
+
+---
+
+## 🔑 Vocabulário da História
+
+| Hanzi | Pinyin | Tradução | Link |
+|-------|--------|----------|------|
+| <hanzi> | <pinyin> | <pt> | [[wiki/vocab/Lote N/<nota>]] ou *(pendente)* |
+
+---
+
+## 🧠 Padrões Gramaticais em Destaque
+
+### 1. <Nome do padrão>
+> **<Frase exemplo.>** — <Explicação>
+> Estrutura: ...
+
+---
+
+## 💡 Palavras Novas Identificadas
+
+| Palavra | Pinyin | Status |
+|---------|--------|--------|
+| <hanzi> | <pinyin> | ✅ Criada: [[link]] OU ⚠️ Pendente |
+
+---
+
+## 🔗 Ver Também
+
+* Links para notas de vocab relevantes e outras histórias relacionadas.
+```
+
 ---
 
 ## ⚙️ Workflows Operacionais
@@ -168,6 +224,12 @@ criado: <YYYY-MM-DD>
 5. Atualize `Bem-vindo.md` com o novo lote/palavras.
 6. Atualize `index.md` com todas as páginas novas ou modificadas.
 7. Adicione entrada em `log.md` no formato: `## [YYYY-MM-DD] ingest | <descrição>`
+8. **Atualize `../README.md`** (na raiz do repositório, um nível acima do vault) com:
+   - Novas páginas adicionadas em cada categoria
+   - Estatísticas atualizadas (contagem de notas, cobertura HSK1)
+   - Nova entrada no Changelog com data, evento e quantidade de páginas
+
+> ⚠️ **Regra obrigatória**: Toda operação de ingest ou criação de conteúdo DEVE terminar com a atualização do `README.md`. O README é o espelho público do estado atual do wiki.
 
 ### QUERY — Responder perguntas sobre o conteúdo do wiki
 
@@ -203,6 +265,8 @@ Quando o usuário pedir para mudar convenções, adicionar campos, criar novos t
 |-----|-----|
 | `hsk1`, `hsk2`, ... | Nível HSK da palavra/conceito |
 | `vocab` | Nota de vocabulário individual |
+| `leitura` | Página de história / texto graduado |
+| `historia` | Subtag de leitura (história curta) |
 | `conceito` | Página de conceito gramatical |
 | `radical` | Página de radical chinês |
 | `tema` | Página temática de vocabulário |

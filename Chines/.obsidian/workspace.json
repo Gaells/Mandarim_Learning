@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "103b6d565435467d",
+        "id": "f24f5a02db2b4780",
         "type": "tabs",
         "children": [
           {
-            "id": "0ffc166572d290e8",
+            "id": "23732b6552bc85e0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "fontes/README.md",
+                "file": "wiki/histórias/A Estação de Trem - 火车站.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "A Estação de Trem - 火车站"
             }
           }
         ]
@@ -180,35 +180,37 @@
       "bases:Criar nova base": false
     }
   },
-  "active": "0ffc166572d290e8",
+  "active": "23732b6552bc85e0",
   "lastOpenFiles": [
-    "log.md",
-    "Bem-vindo.md",
-    "index.md",
-    "wiki/conceitos/Os Quatro Tons do Mandarim.md",
-    "wiki/vocab/Lote 9/Voltar - 回 - huí.md",
-    "wiki/sínteses/Partículas Modais HSK1 - Comparação.md",
-    "wiki/sínteses/Família 电 - Objetos Tecnológicos HSK1.md",
+    "wiki/sínteses/Classificadores HSK1 - 量词.md",
+    "wiki/histórias/ÍNDICE - Histórias HSK1.md",
+    "wiki/vocab/Lote 9/Trem - 火车 - huǒchē.md",
+    "wiki/vocab/Lote 9/Querer Ir - 要 - yào.md",
+    "wiki/vocab/Lote 9/Cadeira - 椅子 - yǐzi.md",
+    "wiki/vocab/Lote 9/Mesa - 桌子 - zhuōzi.md",
+    "wiki/vocab/Lote 9/Dormir - 睡觉 - shuìjiào.md",
+    "wiki/histórias/A Estação de Trem - 火车站.md",
+    "wiki/histórias/Onde Estão Eles - 他们在哪儿.md",
+    "wiki/histórias/Sinto Falta do Meu Amigo - 我想我的朋友.md",
+    "wiki/histórias/Cats and Dogs - 猫和狗.md",
+    "wiki/histórias/Eu Sou um Gato - 我是一只猫.md",
+    "wiki/histórias",
+    "fontes/Where are they (HSK 1) – Free Chinese Reading Practice.md",
+    "Clippings/The train station (HSK 1) – Free Chinese Reading Practice.md",
+    "fontes/The train station (HSK 1) – Free Chinese Reading Practice.md",
+    "fontes/I Miss My Friend (HSK 1) – Free Chinese Reading Practice.md",
+    "fontes/I am a cat (HSK 1) – Free Chinese Reading Practice.md",
+    "fontes/Cats and Dogs (HSK 1) – Free Chinese Reading Practice.md",
+    "Clippings/Cats and Dogs (HSK 1) – Free Chinese Reading Practice.md",
+    "Clippings/I am a cat (HSK 1) – Free Chinese Reading Practice.md",
+    "Clippings/I Miss My Friend (HSK 1) – Free Chinese Reading Practice.md",
+    "Clippings/Where are they (HSK 1) – Free Chinese Reading Practice.md",
+    "wiki/vocab/Lote 1/Ele - 他 - tā.md",
+    "Clippings",
+    "wiki/vocab/Lote 3/Pessoa - 人 - rén.md",
+    "wiki/vocab/Lote 3/China - 中国 - zhōngguó.md",
+    "wiki/radicais/人 - Pessoa.md",
     "wiki/sínteses",
-    "wiki/vocab/Lote 9/Períodos do Dia - 上午中午下午.md",
-    "wiki/vocab/Lote 9/Cima e Baixo - 上下 - shàng xià.md",
-    "wiki/vocab/Lote 9/Este e Aquele - 这那 - zhè nà.md",
-    "wiki/vocab/Lote 9/Onde - 哪 - nǎ.md",
-    "wiki/vocab/Lote 9/Vir - 来 - lái.md",
-    "wiki/vocab/Lote 9/Ver - 看 - kàn.md",
-    "wiki/vocab/Lote 9/Trabalho - 工作 - gōngzuò.md",
-    "wiki/vocab/Lote 9/Televisão - 电视 - diànshì.md",
-    "wiki/vocab/Lote 9/Telefone - 电话 - diànhuà.md",
-    "wiki/vocab/Lote 9/Tchau - 再见 - zàijiàn.md",
-    "wiki/vocab/Lote 9/Táxi - 出租车 - chūzūchē.md",
-    "wiki/vocab/Lote 9/Semana - 星期 - xīngqī.md",
-    "wiki/vocab/Lote 9/Saber Fazer - 会 - huì.md",
-    "wiki/vocab/Lote 9/Restaurante - 饭店 - fàndiàn.md",
-    "wiki/vocab/Lote 9/Querer - 想 - xiǎng.md",
-    "wiki/vocab/Lote 9/Feliz - 高兴 - gāoxìng.md",
-    "wiki/vocab/Lote 9/Quente - 热 - rè.md",
-    "wiki/vocab/Lote 9/Pouco - 少 - shǎo.md",
-    "wiki/vocab/Lote 9/Agora - 现在 - xiànzài.md",
     "wiki/vocab/Lote 9",
     "wiki/vocab/Lote 8",
     "wiki/vocab/Lote 7",
@@ -216,8 +218,6 @@
     "wiki/vocab/Lote 5",
     "wiki/vocab/Lote 4",
     "wiki/vocab/Lote 3",
-    "wiki/vocab/Lote 2",
-    "wiki/vocab/Lote 1",
     "Sem título.canvas"
   ]
 }

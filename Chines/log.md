@@ -66,3 +66,51 @@
 **Proximas acoes**: Lint | Lote 9 continuacao | Conceito: Negacao 不没 | Radical 日
 
 ---
+
+## [2026-05-02] ingest | Histórias de leitura HSK1 (5 histórias de chinesehskreading.com)
+
+**Operacao**: Compilacao de 5 histórias curtas de fontes/ para wiki/historias/.
+
+**Fontes processadas**:
+- I am a cat (HSK 1) - Free Chinese Reading Practice.md
+- Cats and Dogs (HSK 1) - Free Chinese Reading Practice.md  
+- I Miss My Friend (HSK 1) - Free Chinese Reading Practice.md
+- Where are they (HSK 1) - Free Chinese Reading Practice.md
+- The train station (HSK 1) - Free Chinese Reading Practice.md
+
+**Paginas wiki criadas**:
+- wiki/historias/Eu Sou um Gato - 我是一只猫.md
+- wiki/historias/Cats and Dogs - 猫和狗.md
+- wiki/historias/Sinto Falta do Meu Amigo - 我想我的朋友.md
+- wiki/historias/Onde Estao Eles - 他们在哪儿.md
+- wiki/historias/A Estacao de Trem - 火车站.md
+- wiki/historias/INDICE - Historias HSK1.md (indice da secao)
+
+**Vocab novo criado** (identificado das historias):
+- 睡觉 (shuijiào) - Dormir
+- 桌子 (zhuozi) - Mesa
+- 椅子 (yizi) - Cadeira
+- 要 (yao) - Querer/Vai
+- 火车 (huoche) - Trem
+
+**Sintese criada**:
+- wiki/sinteses/Classificadores HSK1 - 量词.md (量词 liangci: 只, 条, 名, 个, 本, 两 vs 二)
+
+**Padroes gramaticais identificados nas historias**:
+1. 在 + Lugar + Verbo (acao localizada) - MUITO frequente
+2. 在 + Verbo (progressivo, como -ing)
+3. Classificadores (只/条/名/个) - tema critico para HSK1
+4. 了 (aspecto completivo) - passado e mudanca de estado
+5. 想 com 3 significados (querer / pensar / sentir falta)
+6. 要 vs 想 vs 会 (3 modais diferentes!)
+
+**Palavras pendentes** (identificadas mas sem nota propria ainda):
+儿子, 晚上, 等, 一起, 和, 还, 但是, 后面, 前面, 火车站
+
+**Proximas acoes recomendadas**:
+1. Criar notas para as ~10 palavras pendentes acima
+2. Criar sintese: 在 - Todos os usos (verbo, preposicao, progressivo)
+3. Criar sintese: Modais (要 vs 想 vs 会 vs 能)
+4. Adicionar mais historias de leitura graduada
+
+---

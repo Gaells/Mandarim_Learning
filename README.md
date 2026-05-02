@@ -6,7 +6,8 @@
 
 [![Obsidian](https://img.shields.io/badge/Obsidian-7C3AED?style=for-the-badge&logo=obsidian&logoColor=white)](https://obsidian.md)
 [![Nível](https://img.shields.io/badge/Nível-HSK1%20→%20HSK2-red?style=for-the-badge)](https://www.chinesetest.cn)
-[![Notas](https://img.shields.io/badge/Notas%20Wiki-97%2B-brightgreen?style=for-the-badge)]()
+[![Notas](https://img.shields.io/badge/Notas%20Wiki-105%2B-brightgreen?style=for-the-badge)]()
+[![Histórias](https://img.shields.io/badge/Histórias%20HSK1-5-orange?style=for-the-badge)]()
 [![Licença](https://img.shields.io/badge/licença-MIT-blue?style=for-the-badge)]()
 
 [Ver o Wiki](#-estrutura-do-wiki) · [Começar a usar](#-como-usar) · [Adaptar para outro idioma](#-adaptando-para-outro-idioma)
@@ -51,26 +52,29 @@ Em vez de uma simples coleção de flashcards, é uma **base de conhecimento viv
 │   │   ├── 📁 Lote 6/              ← Tempo (月, 日, 今天, 明天)
 │   │   ├── 📁 Lote 7/              ← Família (妈妈, 爸爸, 朋友)
 │   │   ├── 📁 Lote 8/              ← Adjetivos (很, 大, 小, 好)
-│   │   └── 📁 Lote 9/              ← Complementar HSK1 (56 palavras)
+│   │   └── 📁 Lote 9/              ← Complementar HSK1 + Histórias (62 palavras)
+│   ├── 📁 histórias/               ← Textos graduados com análise gramatical
 │   ├── 📁 conceitos/               ← Gramática (tons, partículas, SVO...)
 │   ├── 📁 radicais/                ← Por radical (女, 人/亻, 口...)
 │   └── 📁 sínteses/                ← Análises e comparações geradas
 │
 └── 📁 fontes/                      ← Fontes brutas IMUTÁVEIS
     ├── 📁 Lote 0-9/                ← Notas originais por lote
-    └── 📄 Lista HSK1 oficial.md    ← Fonte primária da lista
+    ├── 📄 Lista HSK1 oficial.md    ← Fonte primária da lista
+    └── 📄 *.md                     ← Histórias e leituras graduadas (chinesehskreading.com)
 ```
 
 ### Contagem atual
 
 | Categoria | Quantidade |
 |-----------|-----------|
-| Notas de vocabulário | 97+ |
+| Notas de vocabulário | 102+ |
+| Histórias de leitura | 5 (HSK1) |
 | Conceitos gramaticais | 1 (Os Quatro Tons) |
 | Páginas de radicais | 3 (女, 人/亻, 口) |
-| Sínteses temáticas | 2 |
-| **Total de páginas wiki** | **~98** |
-| Cobertura HSK1 (150 palavras) | ~65% |
+| Sínteses temáticas | 3 (Família 电, Partículas, Classificadores) |
+| **Total de páginas wiki** | **105+** |
+| Cobertura HSK1 (150 palavras) | ~68% |
 
 ---
 
@@ -104,6 +108,42 @@ criado: 2026-05-02
 
 ## 💬 Contexto (HSK1)
 1. **我吃苹果。** — *Wǒ chī píngguǒ.* — Eu como maçã.
+```
+
+---
+
+## 📖 Anatomia de uma Página de História
+
+Além das notas de vocabulário, o wiki compila **histórias de leitura graduada** com análise integrada:
+
+```markdown
+---
+tags: [hsk1, leitura, historia, animais]
+titulo_en: I am a cat
+fonte: "https://chinesehskreading.com/hsk1/short/i-am-a-cat/"
+nivel: HSK1
+criado: 2026-05-02
+palavras_novas: [猫, 叫, 喜欢, 狗, 再见, 睡觉]
+---
+
+# Eu Sou um Gato — 我是一只猫
+
+## 📜 Texto Original
+**我叫小猫。** · *Wǒ jiào Xiǎo Māo.* · Meu nome é Xiao Mao.
+
+## 🔑 Vocabulário da História
+| Hanzi | Pinyin | Tradução | Link |
+|-------|--------|----------|------|
+| 猫 | māo | Gato | [[wiki/vocab/Lote 9/Gato - 猫 - māo]] |
+
+## 🧠 Padrões Gramaticais em Destaque
+### 1. Classificador 只 para animais
+> **我是一只猫。** — Estrutura: 一 + 只 + [animal]
+
+## 💡 Palavras Novas Identificadas
+| Palavra | Status |
+|---------|--------|
+| 睡觉 | ⚠️ Pendente — criar nota vocab |
 ```
 
 ---
@@ -157,8 +197,10 @@ Antes de pedir qualquer coisa ao LLM, compartilhe o arquivo `AGENTS.md` com ele.
 O LLM vai:
 1. Ler o arquivo fonte
 2. Criar/atualizar notas de vocabulário em `wiki/vocab/`
-3. Verificar e atualizar páginas de radicais em `wiki/radicais/`
-4. Atualizar `index.md` e registrar em `log.md`
+3. Para histórias: criar página em `wiki/histórias/` com texto, vocab e análise gramatical
+4. Verificar e atualizar páginas de radicais em `wiki/radicais/`
+5. Criar sínteses quando padrões relevantes emergirem
+6. Atualizar `index.md`, `log.md` e **`README.md`**
 
 ---
 
@@ -271,8 +313,11 @@ Substitua os Lotes por qualquer organização que faça sentido:
 ## 📋 Referência Rápida de Comandos ao LLM
 
 ```bash
-# Processar uma fonte nova
+# Processar uma fonte nova (vocab, lista, aula)
 "Ingest fontes/[arquivo.md] seguindo o AGENTS.md"
+
+# Processar histórias de leitura
+"Compile os arquivos adicionados em fontes/ para o wiki — são histórias em Mandarim"
 
 # Perguntar algo
 "Quais palavras HSK1 pertencem ao radical 人?"
@@ -291,7 +336,20 @@ Substitua os Lotes por qualquer organização que faça sentido:
 
 # Ver progresso
 "Leia o index.md e me dê um resumo do estado atual do wiki"
+
+# [OBRIGATÓRIO após qualquer geração de conteúdo]
+"Atualize o README.md com as novas páginas e estatísticas geradas"
 ```
+
+---
+
+## 📅 Changelog
+
+| Data | Evento | Páginas |
+|------|--------|--------|
+| 2026-05-02 | Início do projeto — Lotes 0–8 migrados | 41 notas |
+| 2026-05-02 | Compilação completa HSK1 — Lote 9 + radicais + sínteses | +56 notas, +2 sínteses, +3 radicais |
+| 2026-05-02 | Histórias de leitura HSK1 (5 textos) + vocab emergente | +5 histórias, +5 notas, +1 síntese |
 
 ---
 
@@ -300,6 +358,7 @@ Substitua os Lotes por qualquer organização que faça sentido:
 - [LLM Wiki Pattern](https://github.com/tobi/llm-wiki) — o padrão conceitual que este projeto implementa
 - [Obsidian](https://obsidian.md) — o "IDE" do wiki
 - [HSK Academy](https://hsk.academy/pt/hsk-1-vocabulary-list) — fonte da lista oficial HSK1
+- [Chinese HSK Reading](https://chinesehskreading.com) — histórias de leitura graduada gratuitas
 - [Vannevar Bush — As We May Think (1945)](https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/) — a inspiração original para bases de conhecimento pessoais e associativas
 
 ---
@@ -312,7 +371,7 @@ MIT — sinta-se livre para clonar, adaptar e usar para o seu próprio aprendiza
 
 <div align="center">
 
-**Feito com 🀄 e muito café · HSK1 em progresso**
+**HSK1 em progresso**
 
 *"A parte tediosa de manter uma base de conhecimento não é a leitura ou o pensamento — é a contabilidade. LLMs não se cansam, não esquecem de atualizar uma referência cruzada."*
 
