@@ -1,0 +1,6 @@
+{
+  "buildCommand": "npx quartz build --directory Chines",
+  "outputDirectory": "public",
+  "installCommand": "npm ci",
+  "framework": null
+}
