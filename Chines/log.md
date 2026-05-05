@@ -114,3 +114,21 @@
 4. Adicionar mais historias de leitura graduada
 
 ---
+
+## [2026-05-05] lint | Criação de páginas pendentes (Conceitos e Radicais)
+
+**Operação**: Criação das páginas de conceitos gramaticais e radicais que constavam como pendentes no `index.md`.
+
+**Páginas criadas**:
+- `wiki/conceitos/Partículas Modais.md`
+- `wiki/conceitos/Estrutura SVO.md`
+- `wiki/conceitos/Negação com 不 e 没.md`
+- `wiki/conceitos/A Partícula de Posse 的.md`
+- `wiki/radicais/日 - Sol.md`
+
+**Atualizações**:
+- `index.md`: Removidas as marcações `*(pendente)*` dos conceitos e radicais.
+
+**Próximas ações recomendadas**:
+- Criar notas para as ~10 palavras pendentes das histórias.
+- Criar sínteses de verbos (在, modais).

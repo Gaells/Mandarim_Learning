@@ -123,28 +123,28 @@
 
 ## 🧠 Conceitos Gramaticais (wiki/conceitos/)
 
-> *Ainda não criados — serão gerados na próxima sessão de lint ou ingest.*
+> *Todos os conceitos básicos foram criados e estão interligados.*
 
 | Página | Descrição |
 |--------|-----------|
-| *(pendente)* [[wiki/conceitos/Os Quatro Tons do Mandarim]] | Sistema tonal: tom 1, 2, 3, 4 e neutro |
-| *(pendente)* [[wiki/conceitos/Partículas Modais]] | 吗, 呢, 吧, 啊 — funções e diferenças |
-| *(pendente)* [[wiki/conceitos/Estrutura SVO]] | Sujeito-Verbo-Objeto em Mandarim |
-| *(pendente)* [[wiki/conceitos/Negação com 不 e 没]] | Quando usar 不 vs 没有 |
-| *(pendente)* [[wiki/conceitos/A Partícula de Posse 的]] | Todos os usos de 的 |
+| [[wiki/conceitos/Os Quatro Tons do Mandarim]] | Sistema tonal: tom 1, 2, 3, 4 e neutro |
+| [[wiki/conceitos/Partículas Modais]] | 吗, 呢, 吧, 啊 — funções e diferenças |
+| [[wiki/conceitos/Estrutura SVO]] | Sujeito-Verbo-Objeto em Mandarim |
+| [[wiki/conceitos/Negação com 不 e 没]] | Quando usar 不 vs 没有 |
+| [[wiki/conceitos/A Partícula de Posse 的]] | Todos os usos de 的 |
 
 ---
 
 ## 🔑 Radicais (wiki/radicais/)
 
-> *Ainda não criados — serão gerados incrementalmente durante ingests.*
+> *Radicais básicos já catalogados. Serão expandidos durante novos ingests.*
 
 | Radical | Nome | Aparece em |
 |---------|------|-----------|
-| *(pendente)* [[wiki/radicais/女 - Mulher]] | 女 nǚ | 好, 她, 妈 |
-| *(pendente)* [[wiki/radicais/人 - Pessoa]] | 人/亻rén | 你, 他, 们, 人 |
-| *(pendente)* [[wiki/radicais/口 - Boca]] | 口 kǒu | 吃, 吗, 呢 |
-| *(pendente)* [[wiki/radicais/日 - Sol]] | 日 rì | 日, 明, 时 |
+| [[wiki/radicais/女 - Mulher]] | 女 nǚ | 好, 她, 妈 |
+| [[wiki/radicais/人 - Pessoa]] | 人/亻rén | 你, 他, 们, 人 |
+| [[wiki/radicais/口 - Boca]] | 口 kǒu | 吃, 吗, 呢 |
+| [[wiki/radicais/日 - Sol]] | 日 rì | 日, 明, 时 |
 
 ---
 

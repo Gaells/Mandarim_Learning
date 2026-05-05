@@ -70,10 +70,10 @@ Em vez de uma simples coleção de flashcards, é uma **base de conhecimento viv
 |-----------|-----------|
 | Notas de vocabulário | 102+ |
 | Histórias de leitura | 5 (HSK1) |
-| Conceitos gramaticais | 1 (Os Quatro Tons) |
-| Páginas de radicais | 3 (女, 人/亻, 口) |
+| Conceitos gramaticais | 5 (Tons, Partículas, SVO, Negação, Posse) |
+| Páginas de radicais | 4 (女, 人/亻, 口, 日) |
 | Sínteses temáticas | 3 (Família 电, Partículas, Classificadores) |
-| **Total de páginas wiki** | **105+** |
+| **Total de páginas wiki** | **110+** |
 | Cobertura HSK1 (150 palavras) | ~68% |
 
 ---
@@ -350,6 +350,7 @@ Substitua os Lotes por qualquer organização que faça sentido:
 | 2026-05-02 | Início do projeto — Lotes 0–8 migrados | 41 notas |
 | 2026-05-02 | Compilação completa HSK1 — Lote 9 + radicais + sínteses | +56 notas, +2 sínteses, +3 radicais |
 | 2026-05-02 | Histórias de leitura HSK1 (5 textos) + vocab emergente | +5 histórias, +5 notas, +1 síntese |
+| 2026-05-05 | Criação de conceitos e radicais pendentes | +4 conceitos, +1 radical |
 
 ---
 
