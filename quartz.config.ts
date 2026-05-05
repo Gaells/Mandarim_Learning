@@ -14,7 +14,7 @@ const config: QuartzConfig = {
     enablePopovers: true,
     analytics: null,
     locale: "pt-BR",
-    baseUrl: "chines.vercel.app", // ← atualize após o primeiro deploy
+    baseUrl: "mandarim-learning.vercel.app",
     ignorePatterns: [
       "private",
       "templates",
